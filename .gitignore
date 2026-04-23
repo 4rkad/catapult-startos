@@ -1,0 +1,5 @@
+node_modules/
+javascript/
+*.s9pk
+catapult-dist/
+.DS_Store
