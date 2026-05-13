@@ -6,7 +6,7 @@ SRC="${CATAPULT_SRC:-$HOME/coinswap-research/catapult}"
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
 
 echo "Rebuilding catapult in $SRC..."
-(cd "$SRC" && npm run build)
+(cd "$SRC" && pnpm run build)
 
 echo "Syncing dist/ -> $HERE/catapult-dist/"
 rm -rf "$HERE/catapult-dist"
